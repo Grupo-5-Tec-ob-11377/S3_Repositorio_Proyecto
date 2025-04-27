@@ -28,6 +28,7 @@ public class Ventana extends JFrame implements ActionListener {
 	private JScrollPane scrollPane;
 	private JTextArea textArea;
 	private JButton btnNewButton;
+	private JRadioButton rdbtnNewRadioButton_2;
 
 	/**
 	 * Launch the application.
@@ -81,13 +82,18 @@ public class Ventana extends JFrame implements ActionListener {
 		}
 		{
 			rdbtnNewRadioButton = new JRadioButton("Asistió");
-			rdbtnNewRadioButton.setBounds(27, 105, 71, 23);
+			rdbtnNewRadioButton.setBounds(80, 104, 71, 23);
 			contentPane.add(rdbtnNewRadioButton);
 		}
 		{
 			rdbtnNewRadioButton_1 = new JRadioButton("Tardanza ");
-			rdbtnNewRadioButton_1.setBounds(115, 105, 78, 23);
+			rdbtnNewRadioButton_1.setBounds(168, 104, 78, 23);
 			contentPane.add(rdbtnNewRadioButton_1);
+		}
+		{
+			rdbtnNewRadioButton_2 = new JRadioButton("Faltó");
+			rdbtnNewRadioButton_2.setBounds(256, 104, 66, 23);
+			contentPane.add(rdbtnNewRadioButton_2);
 		}
 		{
 			scrollPane = new JScrollPane();
